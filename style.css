@@ -1,3 +1,72 @@
+@media (max-width: 600px) {
+  .container {
+    max-width: 98vw;
+    margin: 12px auto;
+    padding: 12px 4vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .profile {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: flex-start;
+  }
+  .avatar {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+    border-width: 2px;
+  }
+  .intro {
+    font-size: 1em;
+    padding: 0;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+  .projects {
+    margin-top: 16px;
+  }
+  .project-card {
+    padding: 14px 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 0.98em;
+  }
+  .project-title {
+    font-size: 1.08em;
+    margin-bottom: 4px;
+  }
+  .project-detail {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .project-img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 8px auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .project-detail p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  footer {
+    font-size: 0.95em;
+    margin-top: 24px;
+  }
+  a[href="index.html"] {
+    padding: 5px 12px;
+    font-size: 0.98em;
+    border-radius: 6px;
+  }
+}
 
 body {
   margin: 0;
