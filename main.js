@@ -23,11 +23,18 @@ const projects = [
     desc: '資料查詢。',
     tech: 'Node.js、firebase',
     link: 'project4.html'
+  },  
+  {
+    title: 'DISCORD_bot 抽獎活動小幫手+聊天室數據分析',
+    desc: '抽獎功能與數據分析進化，多了方便操作的網頁後台工具。',
+    tech: 'Node.js',
+    link: 'project5.html'
   }
+
 ];
 
 const list = document.getElementById('project-list');
-projects.forEach(p => {
+projects.slice().reverse().forEach(p => {
   const a = document.createElement('a');
   a.className = 'project-card';
   a.href = p.link;
